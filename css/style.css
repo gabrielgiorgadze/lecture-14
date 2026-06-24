@@ -4,13 +4,14 @@ main {
 }
 
 .container1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   max-width: 1220px;
   width: 100%;
   margin: 0 auto;
   padding: 64px 0;
 }
 form {
+  margin-top: 57px;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -58,4 +59,87 @@ form {
 .rightarea .mybutton {
   cursor: pointer;
   background-color: #5968f4;
+}
+.container2 {
+  /* border: 2px solid green; */
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.round {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #5968f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.card a {
+  color: #99999a;
+}
+.card p {
+  margin-top: 8px;
+  color: #4e4d54;
+}
+h1 {
+  color: #5863e3;
+  margin-left: 49px;
+}
+h4 {
+  color: #000;
+  font-family: Helvetica;
+  font-size: 49px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 548px;
+  margin-left: 49px;
+}
+.container3 {
+  padding-top: 74px;
+  /* border: 2px solid rgb(128, 11, 0); */
+  max-width: 1318px;
+  width: 100%;
+  margin: 0 auto;
+}
+.photos {
+  margin-top: 53px;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  background-color: #000000;
+  padding: 63px 176px 107px 143px;
+}
+.footercontainer {
+  max-width: 1220px;
+  width: 100%;
+  margin: 0 auto;
+}
+h3 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+footer p {
+  margin-top: 23px;
+  color: #99999a;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 295px;
 }
