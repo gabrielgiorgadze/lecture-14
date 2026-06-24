@@ -124,6 +124,7 @@ footer {
   max-width: 1220px;
   width: 100%;
   margin: 0 auto;
+  display: flex;
 }
 h3 {
   color: #fff;
@@ -142,4 +143,52 @@ footer p {
   font-weight: 700;
   line-height: normal;
   width: 295px;
+}
+.wrap {
+  display: flex;
+  gap: 7px;
+  margin-top: 23px;
+}
+.seconds {
+  margin-left: 191px;
+  width: 108px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.seconds p {
+  color: #5863e3;
+}
+.seconds h6 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third {
+  margin-left: 107px;
+}
+.third div {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+}
+.third h6 {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.third p {
+  color: #fff;
+  font-family: Helvetica;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
